@@ -1,1 +1,39 @@
-# MATH2110
+java c
+MATH2110 - STATISTICS 3 
+SPRING   SEMESTER   SEMESTER   2025 
+Coursework 1 
+Deadline: 3pm, Friday 14/3/2025 Your   neat, clearly-legible   solutions   should   be   submitted   electronically   as   aJupyter   or   PDF   file   via   the   MATH2110   Moodle   page   by   the   deadline   indicated   there.   As   this   work   is   assessed, your   submission   must   be   entirely   your    own work (see the   University’s policy on Academic   Misconduct).
+Submissions   up   to   five   working   days   late   will   be   subject   to   a   penalty   of   5%   of   the   maximum   mark   per   working day.Deadline   extensions   due   to   Support   Plans   and   Extenuating   Circumstances   can   be   requested   according   to   School   and   University   policies,   as   applicable   to   this   module.      Because   of   these   policies,   solutions   (where   appropriate)   and   feedback   cannot   normally   be   released   earlier   than   10   working   days   after   the   main   cohort   submission deadline.
+Please   post   any   academic   queries   in the   corresponding   Moodle forum,   so that   everyone   receives the   same   assistance.   As   it’s assessed work,   I will only be able to answer   points   of clarification.The work   is   intended to   be   approximately   equal to   a week’s worth   of study   time   on   the   module   for   a   student   who   has worked   through   the   module   content   as   intended   -   including   the   R   aspects.    If you   have   any   issues   relating to your own personal circumstances, then   please email   me.
+THE DATA The   objective   is   to   build   a   predictive   model   for   the   median   house   price   in   Boston   neighbourhoods   using   various neighbourhood   characteristics.      Median   house   price   is   a   crucial   indicator   for   urban   planning   and   economic   studies.      It   is   important to   understand   how different social   indicators affect   it.    To this end,   the   dataset   we   will   analyse   here   contains   detailed   records   of   506 neighbourhoods,   capturing   factors   such   as   crime   rates,   age   of the   properties, etc.The   training   and   test   data   are   provided   in   the   files   BostonTrain.csv   and   BostonTest.csv   available   at   the   Moodle page.   The   train   file   contains   observations   for   506 neighbourhoods.   The   target   variable   is medv, median   value of houses   in thousands of dollars.   The predictors   include:
+• crim, which   contains   the   per   capita   crime   rate   by   town.
+• zn, which contains the proportion of   residential   land.
+• rm, which   contains   the   average   number   of   rooms   per   house.
+• age, which   contains   the   proportion   of   houses   built   before   1940.
+• dis, which contains distances to large employment   centres.
+• ptratio, which   contains   the   student-teacher   ratio   by   town.
+• lstat, which   contains   the   percentage   of   lower-status   population.
+The   test   data   is   provided   in   the   file   BostonTest.csv, containing   observations   for   102 neighbourhoods.   The test data should only be used to   evaluate   the   predictive   performance   of your   models.
+THE TASKS 
+(a)    (80   marks)   Using   only   the   training   data   (BostonTrain.csv),   develop   one   or   more   models   to   predict   the median   house   price   (medv) based   on   the   predictor   variables.   You   may   use   any   methods   covered   in   this module.   For   this   part, the   test   data   must   not   be   used.   Your   analysis   should   include:
+– Model   selection   and   justification.
+– Diagnostics   to   assess   the   quality   of   your   model(s).
+– Interpretation of the   model   parameters.   Which   parameters seem代 写MATH2110 - STATISTICS 3 SPRING SEMESTER SEMESTER 2025Haskell
+代做程序编程语言 to   have a   greater   importance   for   prediction?
+(b)    (20 marks) Use   your   “best” model(s)   from   (a)   to   predict   the   median   house   price   (medv)   for   the   neighbourhoods in   the   test   dataset   (BostonTest.csv).   Provide   appropriate   numerical   summaries   and   plots   to   evaluate   the quality of your predictions.   Compare your predictions to those of a simple   linear   model   of the form.:   medv   ∼ crim. 
+NOTES 
+•   An   approximate   breakdown   of   marks   for   part   (a)   is:    exploratory   analysis   (20   marks),   model   selection (40   marks),   model   checking   and   discussion   (20   marks).    About   half   the   marks   for   each   are   for   doing technically correct and relevant things, and half   for discussion and interpretation of   the output.   However,   this   is   only   a   guide, and   the   work   does   not   have   to   be   rigidly   set   out   in   this   manner.   There   is   some   natural overlap   between   these   parts, and   overall   level   of   presentation   and   focus   of   the   analysis   are   also   important in the assessment.   The above   marks are also   not   indicative of the   relative   amount of output/discussion   needed for each   part,   it   is the quality of what   is   produced/discussed which   matters.
+•   As   always,   the   first   step   should   be   to   do   some   exploratory   analysis.    However,   you   do   not   need   to   go   overboard   on this.    Explore the   data yourself,   but you   only   need   to   report   the   general   picture,   plus   any   findings you think are particularly   important.
+•    For   the model   fitting/selection,   you   can use   any   of   the   frequentist   techniques   we have   covered   to investigate   potential   models   -   automated   methods   can   be   used   to   narrow   down   the   search,   but   you   can   still   use   hypothesis   tests, e.g.   if   two   different   automated   methods/criteria   suggest   slightly   different   models.
+•    Please   make   use   of the   help   files   for R commands.    Some   functions   may   require   you   to   change   their   arguments a   little from examples   in the   notes, or   behaviour/output can   be   controlled   by   setting   optional   arguments.
+•   You   should   check   the model   assumptions   and   whether   conclusions   are materially   affected by   any influential   data   points.
+•   The task   is deliberately open-ended:   as this   is a   realistic situation with   real data,   there   is   not   one   single   correct   answer,   and   different   selection   methods   may   suggest   different   “best”   models   -   this   is   normal.   Your job   is to   investigate   potential   models   using the   information and techniques we   have covered.   The   important   point   is   that   you   correctly   use   some   of   the   relevant   techniques   in   a   logical   and   principled   manner,   and   provide   a   concise   but   insightful   summary   of your findings   and   reasoning.      Note   however   that   you   do   not   have   to   produce   a   report   in   a   formal   “report”   format.
+•   You   do   not   need   to   include   all   your   R   output, as   you   will   likely   generate   lots   of   output   when   experimenting.
+For   example,   you may look   at   quite   a large number   of   different plots   and   you might   do lots   of   experimentation   in the   model   development   stage.    You   only   need to   report the   important   plots/output which justify   your decisions   and   conclusions,   and   whilst   there   is   no   word   or   page   limit,   an   overly-verbose   analysis   with   unnecessary output will detract from the impact. 
+
+
+
+
+
+         
+加QQ：99515681  WX：codinghelp  Email: 99515681@qq.com
